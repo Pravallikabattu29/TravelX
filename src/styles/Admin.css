@@ -1,0 +1,120 @@
+/* Overall Admin Container */
+.admin-container {
+    padding: 30px;
+    max-width: 700px;
+    margin: auto;
+    background: linear-gradient(135deg, #6a82fb, #fc5c7d); /* New Gradient */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Admin Header */
+.admin-container h2 {
+    color: white;
+    font-family: 'Arial', sans-serif;
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* Admin Links Section */
+.admin-links {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    
+}
+
+.admin-links a {
+    text-decoration: none;
+    color: #24323b;
+    font-size: 18px;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+}
+
+.admin-links a:hover {
+    text-decoration: underline;
+    color: #0d0f0f;
+}
+
+/* Admin Form */
+.admin-form {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+    justify-content: center;
+}
+
+.admin-form input {
+    flex: 1;
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: border-color 0.3s ease;
+}
+
+.admin-form input:focus {
+    border-color: #6a82fb; /* Matching gradient color */
+    outline: none;
+}
+
+/* Admin Form Button */
+.admin-form button {
+    padding: 10px 16px;
+    background-color: #6a82fb; /* Matching gradient color */
+    border: none;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.admin-form button:hover {
+    background-color: #5a6bdb; /* Slightly darker shade */
+}
+
+/* Admin List */
+.admin-list {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+.admin-list li {
+    display: flex;
+    justify-content: space-between;
+    padding: 12px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+    background-color: #0d0f0f;
+}
+
+
+
+.admin-list button {
+    background-color: #e74c3c;
+    border: none;
+    color: white;
+    padding: 6px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.admin-list button:hover {
+    background-color: #c0392b;
+}
+
+/* Additional Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background: #ecf0f1;
+    margin: 0;
+    padding: 0;
+}
